@@ -9,8 +9,12 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('client'));
 app.use(express.static('node_modules'));
 
-app.get('/api/:fixture', function (req, res) {
+app.get('/api/:fixture/:property?', function (req, res) {
   var fixture = require('./fixtures/' + req.params.fixture);
+  if (req.params.property) {
+    res.send(fixture[req.params.property]);
+    return;
+  }
   res.send(fixture);
 });
 

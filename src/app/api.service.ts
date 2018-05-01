@@ -4,7 +4,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import 'rxjs/add/operator/catch';
 import { Observable } from 'rxjs/Observable';
 
-import { Stock } from './api.model';
+import { Stock, StockSnapshot } from './api.model';
 
 @Injectable()
 export class ApiService {
@@ -13,6 +13,11 @@ export class ApiService {
 
   getStockList(): Observable<Stock[]> {
     return this.http.get<Stock[]>('/api/stocks')
+      .catch(this.errorHandler);
+  }
+
+  getStockHistory(stockName: string): Observable<StockSnapshot[]> {
+    return this.http.get<StockSnapshot[]>(`/api/history/${stockName}`)
       .catch(this.errorHandler);
   }
 

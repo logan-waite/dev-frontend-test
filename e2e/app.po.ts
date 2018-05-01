@@ -8,8 +8,4 @@ export class AppPage {
   getParagraphText() {
     return element(by.css('app-root h1')).getText();
   }
-
-  getStockList() {
-    return element(by.css('.stock-list'));
-  }
 }

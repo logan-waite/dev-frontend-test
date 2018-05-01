@@ -1,8 +1,8 @@
-<div class="container">
-  <ul class="stock-list row">
-    <li class="card col-sm m-2" *ngFor="let stock of stocks">
-      <h5 class="card-title">{{stock.symbol}}</h5>
-      <div class="card-body">{{stock.price}}</div>
-    </li>
-  </ul>
-</div>
+<h3>Current Stock Prices</h3>
+
+<ul class="stock-list row">
+  <li class="card col-sm m-2" *ngFor="let stock of stocks">
+    <h5 class="card-title">{{stock.symbol}}</h5>
+    <div class="card-body">{{stock.price}}</div>
+  </li>
+</ul>
