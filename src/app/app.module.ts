@@ -7,13 +7,15 @@ import { ApiService } from './api.service';
 import { AppComponent } from './app.component';
 import { StocksComponent } from './stocks/stocks.component';
 import { HistoryComponent } from './history/history.component';
+import { PurchasedComponent } from './purchased/purchased.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     StocksComponent,
-    HistoryComponent
+    HistoryComponent,
+    PurchasedComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,5 +4,12 @@
   <li class="card col-sm m-2" *ngFor="let stock of stocks">
     <h5 class="card-title">{{stock.symbol}}</h5>
     <div class="card-body">{{stock.price}}</div>
+    <div class="card-footer">
+      <button>Buy</button>
+    </div>
   </li>
 </ul>
+
+<h3>Stocks I own:</h3>
+
+<app-purchased></app-purchased>
