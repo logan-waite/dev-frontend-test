@@ -1,8 +1,23 @@
-# AngularDevTest
+# Angular Dev Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+In this round of the interview process you will be asked to interpret product requirements and build simple features. You will use this project repo for your development and be asked to discuss your work when finished. Requirements will be sent on the day of your scheduled test.
+
+## Before your scheduled test:
+
+* Clone this repository and familiarize yourself with the project structure, it’s dependencies and existing code.
+* Install the dependencies and ensure you can serve the application locally and run the tests.
+* Send any questions to the recruiter via email.
+
+## During your scheduled test:
+
+* Feature requirements will be sent at the beginning of the scheduled test.
+* A WebEx with our engineers will be setup for you to ask any questions.
+* You will have 1 hour to complete as many of the features with quality.
+* At the end of the 1 hour session you will have 30 minutes to discuss your work with the engineers.
 
 ## Setup
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 In order to develop against this project, you will need Node.JS at least at version 6.0, and `npm` at least at version 5.0. To set up the project, open a terminal, navigate to the directory of the project, and run `npm install`. Once you have installed the dependencies, you can begin running the command below.
 
