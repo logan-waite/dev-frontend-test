@@ -19,7 +19,7 @@ In this round of the interview process you will be asked to interpret product re
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-In order to develop against this project, you will need Node.JS at least at version 6.0, and `npm` at least at version 5.0. To set up the project, open a terminal, navigate to the directory of the project, and run `npm install`. Once you have installed the dependencies, you can begin running the command below.
+In order to develop against this project, you will need Node.JS 8.x, and `npm` at least at version 5.0. To set up the project, open a terminal, navigate to the directory of the project, and run `npm install`. Once you have installed the dependencies, you can begin running the command below.
 
 You may also be required to install the Angular CLI. If any of the commands below don't work, and the error references the `ng` command or the Angular CLI being missing, run `npm install -g @angular/cli`.
 
