@@ -43,7 +43,7 @@ Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.gi
 
 ## Running end-to-end tests
 
-Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). **You must have the Chrome browser installed to run the e2e tests.**
 
 The e2e directory has the skeleton for a page object and an e2e test spec.
 Jasmine matchers are used for the examples: https://jasmine.github.io/2.0/introduction.html
