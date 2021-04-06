@@ -1,9 +1,7 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
-
-import 'rxjs/add/observable/of';
-import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs';
 
 import { ApiService } from '../api.service';
 import { StocksComponent } from './stocks.component';
@@ -13,7 +11,7 @@ describe('StocksComponent', () => {
   let fixture: ComponentFixture<StocksComponent>;
   let apiService: ApiService;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [ HttpClientTestingModule ],
       declarations: [ StocksComponent ],
@@ -27,7 +25,7 @@ describe('StocksComponent', () => {
     fixture = TestBed.createComponent(StocksComponent);
     component = fixture.componentInstance;
     apiService = TestBed.get(ApiService);
-    spyOn(apiService, 'getStockList').and.returnValue(Observable.of([
+    spyOn(apiService, 'getStockList').and.returnValue(of([
       {
         symbol: 'NTAP',
         company: 'NetApp Inc',
