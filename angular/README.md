@@ -11,7 +11,6 @@ This directory contains the Dev Test written using Angular.
 * Send any questions to the recruiter via email.
 
 ## During your scheduled test:
-
 * Feature requirements will be sent at the beginning of the scheduled test.
 * A WebEx/Zoom with our engineers will be setup for you to ask any questions.
 * You will have 1 hour to complete as many of the features with quality.
