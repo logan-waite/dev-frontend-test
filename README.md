@@ -30,10 +30,25 @@ This repository contains four independent code bases:
 
 ## Mock backend
 
-This repository contains a mock backend that serves simple static data, which gives your API queries a legitimate target. This backend is located in the `server/` directory, and can be started by running the following command:
+This repository contains a mock backend that serves simple static data, which gives your API queries a legitimate target. This backend is located in the `server/` directory.
+
+To run the server, you must first install the following utilities:
+
+| Utility | Version | Link(s) |
+|------------|---------|---------|
+| Node | ~ 14.15 | [NodeJS](https://nodejs.org/en/) |
+| NPM | ^ 6.14 | [NodeJS](https://nodejs.org/en/) (bundled with NodeJS) |
+
+Then navigate to the `server` directory and run:
 
 ```commandline
-node server/server.js
+npm install
+```
+
+This will install the necessary dependencies. To run the start the mock server, run the following command from within the `server` directory:
+
+```commandline
+npm run start
 ```
 
 You will need to leave this terminal window running in the background; the server will terminate when you exit the terminal instance.
