@@ -5,7 +5,7 @@
 .stock-tracker__main__list {
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
   padding-inline-start: 40px;
 }
