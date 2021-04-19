@@ -48,6 +48,16 @@ To serve the application in dev mode, run `npm run dev` after completing your se
 
 Note that this command will **not** start the mock server. You must have the mock running in a separate terminal window for the API calls to succeed. 
 
+## Tests
+
+This project is configured with Jest and the React Testing Library for writing tests. The tests are located in the `__tests__` directory. You can run them with the following command:
+
+```
+npm test
+```
+
 ## Further help
 
 * [NextJS documentation](https://nextjs.org/docs)
+* [Jest documentation](https://jestjs.io/)
+* [React Testing Library documentation](https://testing-library.com/docs/react-testing-library/intro/)
