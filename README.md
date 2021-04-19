@@ -7,7 +7,6 @@ This repository contains four independent code bases:
 | Directory | Code Base |
 |-----------|-----------|
 | `angular` | Angular 11 |
-| `no-framework` | Pure HTML + CSS + Javascript |
 | `react`    | ReactJS |
 | `vue`      | VueJS |
 
