@@ -14,7 +14,7 @@ This directory contains the Dev Test written using React.
 
 * Feature requirements will be sent at the beginning of the scheduled test.
 * A WebEx/Zoom with our engineers will be setup for you to ask any questions.
-* You will have 1 hour to complete as many of the features with quality.
+* You will have 1 hour to complete as many of the features as you can with quality.
 * At the end of the 1 hour session you will have 30 minutes to discuss your work with the engineers.
 
 Feel free to change any of the existing code as part of your test.
@@ -28,7 +28,7 @@ This is a React 17 project using NextJS. You will need to have the following dep
 | Node | ~ 14.15 | [NodeJS](https://nodejs.org/en/) |
 | NPM | ^ 6.14 | [NodeJS](https://nodejs.org/en/) (bundled with NodeJS) |
 
-Once you have these installed, you can build the project via a terminal window using this command:
+Once you have these installed, navigate to the `react` directory in a terminal window and run:
 
 ```commandline
 npm install

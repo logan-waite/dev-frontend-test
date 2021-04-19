@@ -25,7 +25,7 @@ This repository contains four independent code bases:
 
 * Feature requirements will be sent at the beginning of the scheduled test.
 * A WebEx/Zoom with our engineers will be setup for you to ask any questions.
-* You will have 1 hour to complete as many of the features with quality.
+* You will have 1 hour to complete as many of the features as you can with quality.
 * At the end of the 1 hour session you will have 30 minutes to discuss your work with the engineers.
 
 ## Mock backend
@@ -45,7 +45,7 @@ Then navigate to the `server` directory and run:
 npm install
 ```
 
-This will install the necessary dependencies. To run the start the mock server, run the following command from within the `server` directory:
+This will install the necessary dependencies. To start the mock server, run the following command from within the `server` directory:
 
 ```commandline
 npm run start

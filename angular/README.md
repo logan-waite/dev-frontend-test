@@ -13,7 +13,7 @@ This directory contains the Dev Test written using Angular.
 ## During your scheduled test:
 * Feature requirements will be sent at the beginning of the scheduled test.
 * A WebEx/Zoom with our engineers will be setup for you to ask any questions.
-* You will have 1 hour to complete as many of the features with quality.
+* You will have 1 hour to complete as many of the features as you can with quality.
 * At the end of the 1 hour session you will have 30 minutes to discuss your work with the engineers.
 
 ## Setup
@@ -26,7 +26,7 @@ This is an Angular 11 project. You will need to have the following dependencies 
 | NPM | ^ 6.14 | [NodeJS](https://nodejs.org/en/) (bundled with NodeJS) |
 | Angular | 11 | [Angular CLI](https://cli.angular.io/) |
 
-Once you have these installed, you can build the project via a terminal window using this command:
+Once you have these installed, navigate to the `angular` directory in a terminal window and run:
 
 ```commandline
 npm install
