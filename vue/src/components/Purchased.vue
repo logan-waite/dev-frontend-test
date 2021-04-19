@@ -1,5 +1,5 @@
 <template>
-  <div>TODO: Add content</div>
+  <div>TODO: List purchased stocks</div>
 </template>
 
 <script>

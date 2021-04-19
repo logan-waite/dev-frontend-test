@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="container">
     <h3>Current Stock Prices</h3>
 
     <ul class="stock-list row">
